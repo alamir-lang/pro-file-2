@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Tahoma", sans-serif;
+  background-color: #f0f0f0;
+  color: #222;
+  line-height: 1.6;
+  direction: rtl;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #1e73be;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background-color: #1e73be;
+  color: white;
+  padding: 60px 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.hero h2 {
+  font-size: 20px;
+  margin: 5px 0 15px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: white;
+  color: #1e73be;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.about, .works, .contact {
+  padding: 40px 20px;
+  background-color: white;
+  margin-top: 10px;
+}
+.works {
+    background-image: url(/WhatsApp\ Image\ 2025-06-10\ at\ 4.06.06\ PM.jpeg);
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+.workscontanir {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    max-width: 5rem auto;
+    max-width: 1200px;
+}
+
+.projecttitle {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.works ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.works li {
+    border-radius: 16px;
+    background-color: rgb(118, 165, 241);
+    backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+}
+
+.works li img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.works li :hover {
+    transform: scale(1.5);
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
